@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title> myBookingApp</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+      <div>
+          <form class="bookingForm">
+            <p style="text-align: center;"><b>Hello ! Please use this to login ...</b></p>
+            <fieldset>
+            
+            <label for="lname">email address</label>
+            <input type="text" id="email" name="lastname" #userEmailAddress placeholder="Your email address Please.." value="{{strUserEmailAddress}}">
+            
+            <label for="lname">Password</label>
+            <input type="password" id="password" name="lastname" #userPassword placeholder="Your password Please..">
+              <br/>
+          <a routerLink="/booking-page">  <input (click)="myUserloginMethod(userEmailAddress.value, userPassword.value)" 
+            type="submit" value="Please Log Me in !"> </a>
+          </fieldset>
+          </form>
+
+          
+        </div>
+      

@@ -1,0 +1,49 @@
+.infoContainer{
+    border: solid 1px cornflowerblue;
+    
+    height: 1400px ;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+
+
+.introTag{
+    margin-left: 20px;
+    color: white;
+    background-color: cornflowerblue;
+    height: 100px;
+    
+    font-size: 5em;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myTextParagraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 10px;
+}
+
+.imageHolder{
+    border: solid 0px cornflowerblue;
+    width: 400px;
+    height: 700px ;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.myImageContainer{
+    margin-left: 250px;
+}
+
+.myIntroTag{
+    text-align: center;
+    margin-top: 100px;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color:white;
+}

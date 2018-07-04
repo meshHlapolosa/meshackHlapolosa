@@ -1,0 +1,243 @@
+
+ .myWrapper{
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .myHeader{
+     border: solid 0px black;
+     margin-bottom: 5px;
+     text-align: center;
+     width : 750px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10px;
+ }
+
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .slideWrapper{
+     width : 750px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 8px;
+ }
+
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.bookingForm{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clLblSelect{
+    margin-top: 10px;
+}
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+
+.w3-modal-content{
+    width: 750px;
+}
+
+.w3-button w3-green{
+    margin-left: 150px;
+}
+
+.ndebele{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border : solid 0px black;
+    width: 750px;
+}
+
+.ndebeleImage{
+    width: 100%;
+}
+
+.mySocialMediaTag{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0px black;
+    width : 750px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa:hover {
+    opacity: 0.5;
+}  
+
+.fa-facebook {
+    margin-left: 180px;
+  }
+
+.myFooter{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0px black;
+    width : 750px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.signUpTab{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0px black;
+    width : 750px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.myNaviBar{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px cadetblue;
+    width : 750px;
+    margin-top: 10px;
+    margin-bottom: -5px; 
+}
+

@@ -1,0 +1,86 @@
+.myAppWrapper {
+    width: 100%;
+    height: 1450px;
+   border: solid 0px cornflowerblue;
+    
+ }
+
+ .myNavigationBar{
+    border: solid 0px cornflowerblue;
+    width: 300px;
+    height: 1420px ;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+   
+ }
+
+ .myNavButton{
+     width: 250px;
+     height: 250px;
+     border: solid 1px cornflowerblue;
+     border-radius: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 27px;
+     background-color: cornflowerblue;
+     color:white;
+ }
+
+ .myNavButton:hover{
+    background-color:cornflowerblue;
+    color: cornflowerblue;
+    font-weight: bold;
+    opacity: 0.3;
+    
+ }
+
+ .myIntroTag{
+     text-align: center;
+     margin-top: 100px;  
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 2em;
+     color:white;
+ }
+
+ .myContentBar{
+    border: solid 0px cornflowerblue;
+    float: right;
+    height: 1420px;
+    width: 2480px;
+    margin-top: -1420px;
+    margin-right: 20px;
+ }
+ 
+ .infoContainer{
+    border: solid 0px cornflowerblue;
+    
+    height: 1400px ;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+
+.introTag{
+    margin-left: 20px;
+    color: white;
+    background-color: cornflowerblue;
+    height: 100px;
+    
+    font-size: 5em;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myTextParagraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.imageHolder{
+    width: 2000px;
+}

@@ -1,0 +1,46 @@
+<div>
+    <form class="bookingForm">
+      <p style="text-align: center;"><b>I have an account. <a routerLink ="/my-login-page">Log me in please </a></b></p>
+      <fieldset>
+      <label for="fname">Full Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name Please.." #userFullName>
+  
+      <label for="lname">email address</label>
+      <input type="text" id="email" name="" placeholder="Your email address Please.." #userEmailAddress>
+      
+      <label for="lname">Password</label>
+      <input type="password" id="password" name="" placeholder="Your password Please.." #userPassword>
+
+      <label for="lname">Confirm Password</label>
+      <input type="password" id="" name="cPassword" placeholder="Please confirm password.." #userConfirmPassword>
+      
+      
+
+        <br/>
+      
+      <label for="selectCity" class="clLblSelect">Please Select City</label>
+      <select id="country" name="country" #userLocation>
+        <option value="Johanneburg">Johanneburg</option>
+        <option value="Pretoria">Pretoria</option>
+        <option value="Polokwane">Polokwane</option>
+        <option value="Cape Town">Cape Town</option>
+        <option value="Durban">Durban</option>
+        <option value="Port Elizabeth">Port Elizabeth</option>
+        <option value="Potchefstroom">Potchefstroom</option>
+        <option value="Kimberly">Kimberly</option>
+        <option value="Nelspriut">Nelspriut</option>
+      </select>
+
+      
+    
+      <a routerLink="/my-login-page"> <input type="submit" value="Please Sign me up !"
+      (click)="myUserSignUpMethod(
+        userFullName.value, 
+        userEmailAddress.value,
+        userPassword.value,
+        userConfirmPassword.value,
+        userLocation.value
+  )"> </a>
+    </fieldset>
+    </form>
+  </div>

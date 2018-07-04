@@ -1,0 +1,212 @@
+.myWrapper {
+    background-image: url("assets/image2.jpg");
+    background-color: #cccccc;
+    border: solid 0px black;
+    width: 1600px;;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center; 
+ }
+
+ .myNavigationHeader{
+     border: solid 0px white;;
+     margin-top: 30px;
+     width :1580px;
+     margin-left: auto;
+     margin-right: auto;
+     height: 80px;
+     
+     
+ }
+
+ .myNameTagText{
+     color: white;
+     font-size: 350%;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 105px;
+     margin-top: -1px;
+ }
+
+ .transparent_btn {
+	display: inline-block;
+	padding: 10px 14px;
+	color: #FFF;
+	border: 1px solid #FFF;
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 120%;
+	background-color: rgba(255,255,255, 0);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 30   px;
+	-webkit-transition: background-color 300ms ease;
+	-moz-transition: background-color 300ms ease;
+	transition: background-color 300ms ease;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+    text-align: center;
+    
+   
+
+}
+.transparent_btn:hover {
+	background-color: rgba(255,255,255, 0.3);
+	color: #FFF;
+}
+
+.listenliveText{
+    font-size: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    text-align: center;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.formWrapper{
+    border: solid 0px white;
+    height: 800px;
+    margin-top: -140px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -250px;
+}
+
+
+.container {
+    position: absolute;
+    margin: 20px;
+    width: 630px;
+    padding: 16px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+
+input[type=text], input[type=password] {
+    width: 590px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    height: 50px;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    border-radius: 25px;
+    opacity: 0.6;
+    
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: azure;
+    outline: none;
+}
+
+
+.btn {
+    font-weight: bold;  
+    color: azure;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 620px;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    border-radius: 25px;
+    background-color: aqua;
+    font-size: 60%;
+}
+
+.btn:hover {
+    opacity: 2;
+}
+
+.myLoginLogo{
+    width:200px;
+    height: 200px;
+    margin-left: 230px;
+    border-radius: 50%;
+    opacity: 0.7;
+    
+}
+
+.mySocialMediaTag{
+    border: solid 0px white;
+    height: 100px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  .fa:hover {
+      opacity: 10;
+  }
+  
+  .fa-facebook {
+   
+    color: aqua;
+    opacity: 0.3;
+  }
+  
+  .fa-twitter {
+    
+    color: aqua;
+    opacity: 0.3;
+  }
+  
+  .fa-google {
+    opacity: 0.3;
+    color: aqua;
+    
+  }
+  
+  .fa-linkedin {
+    opacity: 0.3;
+    color: aqua;
+  }
+  
+  .fa-youtube {
+    opacity: 0.3;
+    color: aqua;
+  }
+  
+  .fa-instagram {
+    opacity: 0.3;
+    color: aqua;
+  }
+  
+  .fa-pinterest {
+    opacity: 0.3;
+    color: aqua;
+  }
+  
+  .fa-snapchat-ghost {
+    opacity: 0.3;
+    color: aqua;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }

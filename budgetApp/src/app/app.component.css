@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    background-image: url("assets/bodyBack.png");
+}
+
+table{
+    width: 600px;
+    padding-bottom: 10px;
+}
+header{
+    text-align: center;
+    background-color: #5f9d9f;
+    width: 600px;
+    color: #fffaf0;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clTable{
+    width:600px; 
+    border-collapse:collapse; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.clTable td{ 
+    padding:3px; border:#5f9d9f 1px solid;
+    text-align: left;
+}
+
+.clTable tr{
+    background:#5f9d9f;
+}
+
+.clTable tr:hover {
+      background-color: #fffaf0;
+      color: #5f9d9f;
+      font-weight: bolder;
+}
+#clAppContainer{
+    border:black 10px;
+    border-radius: 10%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset{
+    width : 570px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3.5%;
+    border-color: #5f9d9f;
+    background-image: url("assets/newBack2.png");
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 135%;
+    
+}
+
+#idTransFees{
+    background-color: #5f9d9f;
+    color: #fffaf0;
+    font-weight: bold;
+}
+

@@ -1,0 +1,14 @@
+<div class="w3-panel w3-pale-green w3-display-container" style="width: 750px; margin-left: auto;margin-right: auto;">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-green w3-large w3-display-topright">&times;</span>
+  <h3>View your booking Confirmation</h3>
+  <p ></p>
+  <ul>
+    <li>Hello Your reservation of {{name}} at {{strUserLocation}} has been confirmed. Please note that
+      it will comprise of {{intNoRooms}} rooms and the following details will be forwaded to your email address
+      and please ensure that you check in on the {{dteStartDate}} and you vacate the room on the {{dteEndDate}}
+      before 9:00 am. Thank you and enjoy your stay...
+    </li>
+  </ul>
+  <button (click)="ok()"></button>
+</div>

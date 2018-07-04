@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<title> myBookingApp</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+      <div>
+          <form class="bookingForm">
+            <p style="text-align: center;"><b>Hello ! Please use this to find available suitable places. ...</b></p>
+            <fieldset>
+            
+            <label for="lname">email address</label>
+            <input type="text" id="lname" name="lastname" #user
+            placeholder="Your email address Please.." value="{{val}}">
+            
+            <label for="selectCity" class="clLblSelect">Please select number of rooms</label>
+      <select id="country" name="country" #userNoRooms>
+        <option value="one+">1+</option>
+        <option value="two+">2+</option>
+        <option value="three+">3+</option>
+        <option value="four+">4+</option>
+        <option value="five+">5+</option>
+        
+      </select>
+              <br/>
+              <label for="selectCity" class="clLblSelect">Please Select City</label>
+      <select id="country" name="country" #userLocationChoice>
+        <option value="Johanneburg">Johanneburg</option>
+        <option value="Pretoria">Pretoria</option>
+        <option value="Polokwane">Polokwane</option>
+        <option value="Cape Town">Cape Town</option>
+        <option value="Durban">Durban</option>
+        <option value="Port Elizabeth">Port Elizabeth</option>
+        <option value="Potchefstroom">Potchefstroom</option>
+        <option value="Kimberly">Kimberly</option>
+        <option value="Nelspriut">Nelspriut</option>
+      </select>
+
+      <label for="lname">Your start date Please...</label>
+            <input type="date" id="lname" name="lastname" #userStartDate
+             placeholder="Your email address Please..">
+            <label for="lname">Your end date Please...</label>
+            <input type="date" id="lname" name="lastname" #userEndDate
+            placeholder="Your email address Please..">
+
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black"
+              style="width: 100%;background-color: #4CAF50;border-radius: 4px;"
+            >Find me a place</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright" routerLink ="/confirm-page">&times;</span>
+        <h3>View available places in Johanneburg</h3>
+      </header>
+      <div class="w3-container">
+          <div>
+          <p>
+              <img src="assets/reefhotel.jpg" alt="Smiley face" style="float:left;width:300px;height:180px;">
+              <p><b>The Reef Hotel</b></p>
+                <p> Spacious room featuring city view, double or twin, work desk, shower
+                WiFi internet, Plasma TV, coffe making ficilities, hair dryer, electronic safe and air conditioning.  
+              </p>
+              <p> For only <b>R899</b> per night</p>
+              <p> 
+            <a (click)="myBookingDetailsMethod('The Reef Hotel R899',user.value, userNoRooms.value,
+                userLocationChoice.value, 
+                userStartDate.value,
+                userEndDate.value)" routerLink ="/booking-page">Book Room for me please ! </a></p>
+            </div>
+      </div>
+
+
+      
+      <div class="w3-container">
+          <div>
+          <p>
+              <img src="assets/sunny.jpg" alt="Smiley face" style="float:left;width:300px;height:180px;">
+              <p><b>The Sunnyside Park Hotel</b></p>
+                <p> Situated in the Monument wing, the Garden Suites all have direct access to the beautiful nature of Johannesburg.   
+              </p>
+              <p> For only <b>R1299</b> per night</p>
+              <p> <a  (click)="myBookingDetailsMethod('The Sunnyside Park Hotel R1299',user.value, userNoRooms.value,
+                userLocationChoice.value, 
+                userStartDate.value,
+                userEndDate.value)">Book Room for me please ! </a></p>
+            </div>
+      </div>
+
+      <div class="w3-container">
+          <div>
+          <p>
+              <img src="assets/palm.jpg" alt="Smiley face" style="float:left;width:300px;height:180px;">
+              <p><b>The Palm Continental Hotel</b></p>
+                <p>Palm Continental Hotel extends a warm welcome to you. Whether you’re here on business, or need a break within the city, we have you covered.   
+              </p>
+              <p> For only <b>R849</b> per night</p>
+              <p> <a  (click)="myBookingDetailsMethod('The Palm Continental Hotel R849',user.value, userNoRooms.value,
+                userLocationChoice.value, 
+                userStartDate.value,
+                userEndDate.value)">Book Room for me please ! </a></p>
+            </div>
+      </div>
+
+      <div class="w3-container">
+          <div>
+          <p>
+              <img src="assets/garden.jpg" alt="Smiley face" style="float:left;width:300px;height:180px;">
+              <p><b>The Garden Court Eastgate</b></p>
+                <p>Situated 15 mins from O. R. Tambo Int Airport, the Garden Court Eastgate hotel in Johannesburg is an 
+                  ideal base from which to conduct business, explore, or simply relax in one of Africa’s most iconic cities.     
+              </p>
+              <p> For only <b>R749</b> per night</p>
+              <p> <a  (click)="myBookingDetailsMethod('The Garden Court Eastgate R749',user.value, userNoRooms.value,
+                userLocationChoice.value, 
+                userStartDate.value,
+                userEndDate.value)">Book Room for me please ! </a></p>
+            </div>
+      </div>
+
+      <div class="w3-container">
+          <div>
+          <p>
+              <img src="assets/newtown.jpg" alt="Smiley face" style="float:left;width:300px;height:180px;">
+              <p><b>The City Lodge Newtown</b></p>
+                <p>We’ve refreshed our popular online Lodger Club loyalty programme and renamed it CLHG REWARDS. 
+                  A fantastic new feature is that you can now earn points towards bed and breakfast or room only redemption.     
+              </p>
+              <p> For only <b>R900</b> per night</p>
+              
+              <p> <a  (click)="myBookingDetailsMethod('The City Lodge Newtown R900',user.value, userNoRooms.value,
+                userLocationChoice.value, 
+                userStartDate.value,
+                userEndDate.value)">Book Room for me please ! </a></p>
+            </div>
+      </div>
+
+      
+
+      <footer class="w3-container w3-teal">
+        <p>Hello Booking App</p>
+      </footer>
+    </div>
+  </div>
+          </fieldset>
+          </form>
+        </div>
+      
