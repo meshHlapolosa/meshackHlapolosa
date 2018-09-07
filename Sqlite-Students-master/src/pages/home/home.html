@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      SQLITE STORAGE
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item *ngFor="let student of students">
+
+      {{ student.name }}
+      {{ student.lstName }}
+      {{ student.email }}
+      {{ student.course }}
+
+    </ion-item>
+  </ion-list>
+
+  <ion-fab bottom right>
+    <button ion-fab (click)="addStudents()">
+      <ion-icon name='add'></ion-icon>
+    </button>
+  </ion-fab>
+
+</ion-content>
